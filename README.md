@@ -33,6 +33,9 @@ And just run the app.py
 python app.py
 ```
 
+### What to do
+> Adding minmonth/day
+
 ## Authors
 
 * **Janter** - *Initial work* - [Source Code](https://pastebin.com/kbsCFyAs)
