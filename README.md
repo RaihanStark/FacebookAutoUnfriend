@@ -7,6 +7,9 @@ The Facebook Auto Unfriend is a tool for you who want to unfriend inactive frien
 - **LESS THAN 15 LINES OF CODES**
 - **Faster**
 
+### Getting Started
+What is MinYear? (for example: 2016) It will unfriend who don't update their's status below < 2016 (which is 2015 and below)
+
 ### Prerequisites
 
 What you need
