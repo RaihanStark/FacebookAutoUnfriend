@@ -6,7 +6,7 @@ The Facebook Auto Unfriend is a tool for you who want to unfriend inactive frien
 
 ### Features
 - Automatically Get Access Token
-- **LESS THAN 15 LINES OF CODES**
+- **LESS THAN 25 LINES OF CODES**
 - **Faster**
 
 ### Getting Started
