@@ -1,4 +1,4 @@
-import requests, json, re, sys
+import requests, json
 from loguru import logger
 def get_token(user,pwd): return json.loads(requests.get("https://api.facebook.com/restserver.php?api_key=3e7c78e35a76a9299309885393b02d97&email={0}&format=JSON&generate_machine_id=1&generate_session_cookies=1&locale=en_US&method=auth.login&password={1}&return_ssl_resources=0&v=1.0&sig=0a51bddba3a4152ab92ec4b8cdf8a730".format(user, pwd)).text)['access_token']
 def get_friends_list(token): return json.loads(requests.get('https://graph.facebook.com/me?fields=friends&access_token='+token).text)['friends']['data']
